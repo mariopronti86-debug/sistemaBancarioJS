@@ -91,7 +91,7 @@ while (!isAuthenticated) {
         continue; // Torna al login principale
     }
 
-    // 👤 Login utente normale
+    // Login utente normale
     let foundAccount = null;
     for (let i = 0; i < accounts.length; i++) {
         if (accounts[i].username === inputUsername) {
@@ -208,6 +208,7 @@ while (!exitDashboard) {
 
 // 4. Funzionalità Avanzata: Il Bonifico
 // Questo punto per noi era troppo difficile sorri :P
+
 
 
 
